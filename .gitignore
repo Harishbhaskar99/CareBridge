@@ -1,0 +1,51 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# JavaScript / TypeScript
+node_modules/
+dist/
+build/
+.next/
+.nuxt/
+.turbo/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+.secrets
+
+# Test and coverage outputs
+playwright-report/
+test-results/
+.playwright/
+coverage/
+.coverage
+coverage.xml
+*.lcov
+htmlcov/
+.nyc_output/
+
+# Local database volumes
+.pgdata/
+pgdata/
+postgres-data/
+database/data/
+
+# Editor and OS temporary files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
