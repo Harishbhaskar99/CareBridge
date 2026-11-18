@@ -1,0 +1,36 @@
+<![CDATA<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Bupa - Health & Care Services</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            bupa: {
+              50: '#f0f9ff',
+              100: '#e0f2fe',
+              200: '#bae6fd',
+              400: '#38bdf8',
+              500: '#0079C8', /* Iconic Bupa Blue */
+              600: '#0062a3',
+              700: '#004B87', /* Deep Navy Bupa */
+              800: '#003561',
+              900: '#002240',
+              accent: '#00a3e0'
+            }
+          }
+        }
+      }
+    }
+  </script>
+  </head>
+<body class="bg-slate-50 text-slate-800 antialiased min-h-screen selection:bg-bupa-500 selection:text-white">
+  <div id="root"></div>
+  <script type="module" src="./index.tsx"></script>
+<script type="module" src="/index.js"></script></body>
+</html>]]>
